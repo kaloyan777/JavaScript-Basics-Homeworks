@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>dec2hex.html</title>
+
+<!-- Write a JavaScript code in a Web page dec2hex.html that enters a positive integer number num and converts it to a hexadecimal form.
+The input should be entered as JavaScript prompt window. The output should be shown as browser popup window (alert). -->
+
+</head>
+<body>
+    <script>
+
+        var num = Number(prompt("What's your number?"));
+        while(num <= 0)
+        {
+            //console.log("Enter a positive integer number!");
+            num = Number(prompt("What's your number again?"));
+        }
+
+        alert(num.toString(16).toUpperCase());
+
+    </script>
+</body>
+</html>

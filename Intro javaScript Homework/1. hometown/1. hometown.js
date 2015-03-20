@@ -1,0 +1,4 @@
+function myHometown()
+{
+    alert("Pleven!");
+}
